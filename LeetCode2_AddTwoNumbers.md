@@ -58,6 +58,11 @@ public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 }
 ```
 
+**总结：**
+
+- **哑结点**的使用，可以通过dummpyHead.next获取到目标的头结点，也方便了后续对每个节点的赋值
+- 边界判断，包括：数值的位数、数值的进位、数值在最高后还存在进位的情况
+
 ### 复杂度分析
 
 - 时间复杂度:  假设l1和l2的长度分别为m和n,则时间复杂度为O(max(m,n))
